@@ -1,0 +1,316 @@
+body {
+    background-color: white;
+}
+
+a:link {
+        color: grey;
+        text-decoration: underline;
+}
+
+a:visited {
+        color: grey;
+        text-decoration: underline;
+}
+
+a:hover {
+        text-decoration: underline;
+}
+
+/*-------------------------*/
+
+
+#container{
+        margin-top: 13%;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 10px;
+        max-width: 460px;
+        padding-left: 15px;
+        padding-right: 15px;
+}
+
+/*-------------------------*/
+
+/*
+#Masthead{
+        display: block;
+        position: relative;
+        margin-top: 0px;
+        margin-bottom: 30px;
+        background: url("cylinder_3_large.png") left top no-repeat;
+        background-size: 70px;
+        height: 130px;        
+        background-size: contain;
+}
+*/
+
+/*-------------------------*/
+
+#Title{
+        display: block;
+        position: relative;
+        margin-top: 30px;
+        text-align: center;        
+}
+
+/*-------------------------*/
+
+#navbar {
+    text-align: center;
+    font: bold 14pt Optima, sans-serif;
+}
+
+#navbar ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+#navbar li {
+    display: inline-block;
+}
+
+#navbar a {
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 10px 13px;
+    text-decoration: none;
+}
+
+#navbar li a:hover {
+    border-bottom: 5px solid black;
+}
+
+#navbar .active {
+    border-bottom: 5px solid black;
+}
+
+/*-------------------------*/
+
+.Content{
+    display: block;
+    position: relative;
+    margin-top: 40px;
+    clear: both;
+}
+
+.Content > p {
+    color: black;
+    font: 14pt Optima, sans-serif;
+    line-height: 140%;
+    margin-top: 1em;
+}
+
+.Content > h2 {
+    color: black;
+    font: bold 18pt Optima, sans-serif;
+    text-align: center;
+    line-height: 140%;
+    margin-top: 2em;
+}
+
+.Content > h3 {
+    color: black;
+    font: bold 14pt Optima, sans-serif;
+    line-height: 140%;
+    margin-top: 1em;
+}
+
+.Content > p.definition {
+    margin-left: 2em;
+}
+
+/*-------------------------*/
+
+/*#BioBox{
+    display: block;
+    width: auto;
+    position: relative;
+    margin-top: 30px;
+    clear: both;
+    border: 1px solid green;
+    text-align: center;
+}*/
+
+/*#centeringContainer {
+    display: inline-block;
+    border: 1px solid red;
+}*/
+
+/*
+.Bio{
+    float: left;
+    width: 125px;
+    height: 45px;
+    border: 3px solid #D8D8D8;
+    margin-left:5px;
+    margin-right: 5px;
+    margin-bottom: 10px;
+    padding-top: 25px;
+    padding-left: 85px;
+    color: black;
+    font: bold 14pt Optima, sans-serif;
+    border-radius: 10px;
+}
+
+#BioSeanan {
+    background: url(images/seanan_sq_bw.jpg) left top no-repeat;
+    background-size: 70px auto;
+}
+
+#BioPatrick {
+    background: url(images/patrick_sq_bw.jpg) left top no-repeat;
+    background-size: 70px auto;
+}
+
+*/
+
+/*-------------------------*/
+
+.Bio {
+    margin-top: 3em;
+    font: 13pt Optima, sans-serif;
+    line-height: 140%;
+}
+
+.Bio img {
+    width: 150px;
+    float: left;
+    margin-right: 15px;
+}
+
+/*-------------------------*/
+
+.Contact{
+        display: block;
+        position: relative;
+        /*max-width: 65%;*/
+        /*margin-top: 20px;*/
+        /*margin-left: auto;
+        margin-right: auto;*/
+        padding-left: 65px;
+        /*border-top: 1px dotted black;*/
+        text-align: left;
+}
+
+.Contact > p {
+    color: black;
+    font: italic 12pt Optima, sans-serif;
+    line-height: 140%;
+    margin-top: -1em;
+}
+
+.Contact > h3 {
+    color: black;
+    font: bold 14pt Optima, sans-serif;
+    line-height: 140%;
+}
+
+#ContactEmail {
+    background: url(images/contact_email.jpg) left top no-repeat;
+    background-size: 50px auto;
+}
+
+#ContactPhone {
+    background: url(images/contact_call.jpg) left top no-repeat;
+    background-size: 50px auto;
+}
+
+#ContactAnonymous {
+    background: url(images/contact_mailbox.jpg) left top no-repeat;
+    background-size: 50px auto;
+}
+
+/*-------------------------*/
+
+#MediumLinks{
+        display: block;
+        position: relative;
+        max-width: 300px;
+        margin-top: 30px;
+        margin-left: auto;
+        margin-right: auto;
+        padding-left: 20px;
+        text-align: left;
+        border-left: 1px dotted black;
+}
+
+#MediumLinks > p.link {
+    color: black;
+    font: bold 14pt Optima, sans-serif;
+    line-height: 140%;
+}
+
+#MediumLinks > p.comment {
+    color: black;
+    font: italic 14pt Optima, sans-serif;
+    line-height: 140%;
+    margin-top: -1em;
+}
+
+/*-------------------------*/
+
+#Bottom{
+        display: block;
+        position: relative;
+        margin-top: 50px;
+        margin-bottom: 50px;
+        text-align: center;
+        background: url("images/cylinder_2_square.png") center no-repeat;
+        background-size: 70px;
+        height: 80px;        
+}
+
+/*-------------------------*/
+
+/*
+img.Masthead {
+    max-width: 85%;
+}
+*/
+
+/*---- RESPONSIVE MASTHEAD ----*/
+
+.wrapper { 
+  overflow:hidden;
+  margin-bottom: 10%;
+  /*margin-left: 3%;
+  margin-right: 7%;*/
+  max-width: 100%;
+  /*background-color:pink;*/
+}
+
+.wrapper div {
+   min-height: 100px;
+}
+#one {
+  background: url("images/MastheadLogo.png") center center no-repeat;
+  background-size: contain;
+  float:left; 
+  margin-right:5px;
+  width:13%;
+  /*background-color: gray;*/
+}
+#two { 
+  background: url("images/MastheadTitle.png") left center no-repeat;
+  background-size: contain;
+  overflow:hidden;
+  margin-right: 25px;
+  /*background-color: blue;*/
+}
+
+@media screen and (max-width: 490px) {
+   #one { 
+    float: none;
+    margin-right:auto;
+    margin-left: auto;
+    width:auto;
+    border:0;
+  }
+  #two {
+    margin-right:0%;
+  }
+
+}
