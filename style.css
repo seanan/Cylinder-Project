@@ -39,7 +39,7 @@ a:hover {
         margin-bottom: 30px;
         background: url("cylinder_3_large.png") left top no-repeat;
         background-size: 70px;
-        height: 130px;        
+        height: 130px;
         background-size: contain;
 }
 */
@@ -50,7 +50,7 @@ a:hover {
         display: block;
         position: relative;
         margin-top: 30px;
-        text-align: center;        
+        text-align: center;
 }
 
 /*-------------------------*/
@@ -260,7 +260,7 @@ a:hover {
         text-align: center;
         background: url("images/cylinder_2_square.png") center no-repeat;
         background-size: 70px;
-        height: 80px;        
+        height: 80px;
 }
 
 /*-------------------------*/
@@ -273,36 +273,13 @@ img.Masthead {
 
 /*---- RESPONSIVE MASTHEAD ----*/
 
-.wrapper { 
-  overflow:hidden;
-  margin-bottom: 10%;
-  /*margin-left: 3%;
-  margin-right: 7%;*/
-  max-width: 100%;
-  /*background-color:pink;*/
-}
-
-.wrapper div {
+#logo {
+   max-width: 100%;
    min-height: 100px;
-}
-#one {
-  background: url("images/MastheadLogo.png") center center no-repeat;
-  background-size: contain;
-  float:left; 
-  margin-right:5px;
-  width:13%;
-  /*background-color: gray;*/
-}
-#two { 
-  background: url("images/MastheadTitle.png") left center no-repeat;
-  background-size: contain;
-  overflow:hidden;
-  margin-right: 25px;
-  /*background-color: blue;*/
 }
 
 @media screen and (max-width: 490px) {
-   #one { 
+   #one {
     float: none;
     margin-right:auto;
     margin-left: auto;
